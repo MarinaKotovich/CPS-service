@@ -7,16 +7,16 @@
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('/fonts/TTLakes/TTLakes-Regular.woff') format('woff'),
-         url('/fonts/TTLakes/TTLakes-Regular.ttf') format('truetype');
+    src: url('./fonts/TTLakes/TTLakes-Regular.woff') format('woff'),
+         url('./fonts/TTLakes/TTLakes-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('/fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
-         url('/fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
+    src: url('./fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
+         url('./fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -153,7 +153,7 @@ text-align: left;
     margin-bottom: 16px;
 }
 .services__image-container {
-    background-image: url("/img/CPS.png");
+    background-image: url("./img/CPS.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
