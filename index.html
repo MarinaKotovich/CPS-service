@@ -1,30 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/style.css">
     <title>Услуги и сервисы</title>
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-   <header class="header">
-    <div class="container">
-        <nav class="nav">
-            <a class="icon">
-                <img class="icon"  src="./images/menu_mob.svg" alt="иконка">
-            </a>
+    <header class="header">
+        <div class="header__menu">
+            <button class="header__menu-button">
+                <img src="/img/burger.svg" alt="Меню">
+            </button>
+            <div class="header__divider"></div> 
+            <div class="header__logo">
+                <img src="/img/Group.svg" alt="Логотип CPS">
+            </div>
         </div>
-        </nav>
-   </header> 
-   <h1 class="title"></h1>
-   <div class="content">
-   <img class="title" src="./images/Title Copy.svg" alt="заголовок">
-<main class="page-main">
-    <img class="menu" src="./images/slideMenu Copy.svg" alt="меню">
-    <h2 class="block"></h2>
-    <img class="block" src="./images/block.svg" alt="первый блок">
-</main>
-</div>
+        
+        <div class="header__icons">
+            <div class="header__icons-group"> 
+                <button class="header__icon header__icon--call"> 
+                    <img src="/img/call.svg" alt="Ремонт">
+                </button>
+                <button class="header__icon header__icon--chat"> 
+                    <img src="/img/chat.svg" alt="Поиск">
+                </button>
+                <button class="header__icon header__icon--profile"> 
+                    <img src="/img/profile.svg" alt="Поиск">
+                </button>
+            </div>
+            <div class="header__divider"></div> 
+            <button class="header__icon header__icon--tool"> 
+                <img src="/img/repair.svg" alt="Ремонт">
+            </button>
+            <button class="header__icon header__icon--search"> 
+                <img src="/img/checkstatus.svg" alt="Поиск">
+            </button>
+        </div>
+    </header>
+    <div class="line"></div>
+
+    <main class="main-content">
+        <section class="services">
+            <div class="services__container">
+                <div class="services__header">
+                    <div class="services__header-line">
+                    </div>
+                    <h1 class="services__title">Услуги и сервисы</h1>
+                </div>
+                <div class="services__actions">
+                    <div class="services__action"> 
+                        <span class="services__action-label">Оставить заявку</span> 
+                        <button class="services__action-button services__action-button--tool"> 
+                            <img src="/img/repair.svg" alt="Поиск" class="services__action-icon">
+                        </button>
+                    </div>
+                    <div class="services__action"> 
+                        <span class="services__action-label">Статус ремонта</span> 
+                        <button class="services__action-button services__action-button--status"> 
+                            <img src="/img/checkstatus.svg" alt="Поиск" class="services__action-icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="services__tabs">
+                <button class="services__tab services__tab--active">Ремонтируемые устройства</button>
+                <button class="services__tab">Дополнительные услуги</button>
+                <button class="services__tab">Цены на услуги</button>
+                <button class="services__tab">Специальные цены</button>
+                <button class="services__tab">Адреса сервисных центров</button>
+                <button class="services__tab">Специальные цены</button>
+            </div>
+        <div class="services__content__container">
+
+            
+            <div class="services__content"> 
+                <p class="services__description">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p class="services__description">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                <div class="services__actions__link"> 
+                    <img src="/img/expand.svg" alt="down-arrow" class="services__icon"> 
+                    <a href="#" class="services__link">Читать далее</a> 
+                </div>
+            </div>
+            <div class="services__image-container"> 
+                
+            </div>
+        </div>
+        </section>
+    </main>
 </body>
 </html>
